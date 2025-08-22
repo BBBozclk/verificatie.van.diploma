@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Verificate — One Pager</title>
+    <meta name="description" content="Official one-page website for Verificate." />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Verificate" />
+    <meta property="og:description" content="Official one-page website for Verificate." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://example.com" />
+    <meta property="og:image" content="/assets/og-image.png" />
+
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Verificate" />
+    <meta name="twitter:description" content="Official one-page website for Verificate." />
+    <meta name="twitter:image" content="/assets/og-image.png" />
+
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="icon" href="/favicon.png" type="image/png" sizes="32x32" />
+    <link rel="apple-touch-icon" href="/assets/apple-touch-icon.png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+    <link rel="stylesheet" href="/styles.css" />
+
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "Verificate",
+      "url": "https://example.com",
+      "logo": "/assets/logo.svg"
+    }
+    </script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <header class="site-header" role="banner">
+      <div class="container header-inner">
+        <div class="brand">
+          <img src="/assets/logo.svg" width="32" height="32" alt="Verificate logo" />
+          <span class="brand-name">Verificate</span>
+        </div>
+        <nav class="nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#logos">Partners</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="container">
+          <h1 id="hero-title">Simple, reliable verification</h1>
+          <p class="lead">A concise one-pager you can keep updated from GitHub and deploy on Render.</p>
+          <div class="cta-group">
+            <a class="btn btn-primary" href="#contact">Get in touch</a>
+            <a class="btn btn-secondary" href="#about">Learn more</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="section" aria-labelledby="about-title">
+        <div class="container">
+          <h2 id="about-title">About</h2>
+          <p>Use this space for a short value proposition and overview. We can replace this text with your final copy.</p>
+        </div>
+      </section>
+
+      <section id="logos" class="section" aria-labelledby="logos-title">
+        <div class="container">
+          <h2 id="logos-title">Trusted by</h2>
+          <div class="logo-grid" role="list" aria-label="Partner logos">
+            <div class="logo-item" role="listitem">
+              <img src="/assets/sample-logo.svg" alt="Sample partner" />
+            </div>
+            <div class="logo-item" role="listitem">
+              <img src="/assets/sample-logo.svg" alt="Sample partner" />
+            </div>
+            <div class="logo-item" role="listitem">
+              <img src="/assets/sample-logo.svg" alt="Sample partner" />
+            </div>
+            <div class="logo-item" role="listitem">
+              <img src="/assets/sample-logo.svg" alt="Sample partner" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="section" aria-labelledby="contact-title">
+        <div class="container">
+          <h2 id="contact-title">Contact</h2>
+          <p>Drop us a line and well get back to you.</p>
+          <a class="btn btn-primary" href="mailto:hello@example.com">hello@example.com</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>  a9 <span id="year"></span> Verificate. All rights reserved.</p>
+        <nav aria-label="Footer">
+          <a href="/privacy.html">Privacy</a>
+          <a href="/terms.html">Terms</a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html> 

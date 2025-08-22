@@ -1,0 +1,11 @@
+services:
+  - type: static_site
+    name: verificate-onepager
+    env: static
+    buildCommand: ''
+    staticPublishPath: .
+    pullRequestPreviewsEnabled: true
+    routes:
+      - type: rewrite
+        source: /*
+        destination: /index.html 
