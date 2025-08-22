@@ -347,6 +347,7 @@ main {
   height: auto;
   max-height: 40px;
   width: auto;
+  filter: brightness(0) invert(1);
 }
 
 .footer-inner nav {
